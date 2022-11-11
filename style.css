@@ -1,0 +1,247 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: white;
+  color: rgb(2, 2, 2);
+  background-image: url(img/oriental.png);
+}
+
+article {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+article h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 73px;
+  background-color: rgb(3, 3, 3);
+  border: 3px solid rgb(44, 7, 146);
+  color: white;
+  z-index: 9999;
+}
+
+.top-bar h1 {
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: 1150px;
+  margin: 110px auto;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.twitter {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/twitter.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -23px;
+  right: -27px;
+}
+
+.header {
+  padding: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  padding: 7px;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header a:hover {
+  color: rgb(2, 181, 252);
+}
+
+.hero {
+  height: 490px;
+  background-image: url(img/coma.png);
+  background-size: cover;
+  background-position: 0 -270px;
+  border-bottom: 5px solid rgb(5, 5, 5);
+  border-top: 5px solid rgb(7, 7, 7);
+}
+
+.main {
+  width: 790px;
+  padding: 20px;
+  color: black;
+  box-sizing: border-box;
+  float: left;
+}
+
+.content {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  color: rgb(3, 3, 3);
+  padding-left: 7px;
+  margin-top: 7px;
+}
+
+.content .writer {
+  font-size: 12px;
+  color: rgb(7, 7, 7);
+}
+
+.content .writer a {
+  color: rgb(4, 49, 252);
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.writer a:hover {
+  color: dodgerblue;
+}
+
+.main p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.shared {
+  text-align: left;
+}
+
+.share {
+  display: inline-block;
+}
+
+.span {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: -20px;
+}
+
+.tw {
+  background-color: dodgerblue;
+  color: rgb(250, 249, 249);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+.fb {
+  background-color: dodgerblue;
+  color: rgb(252, 252, 252);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.wa {
+  background-color: dodgerblue;
+  color: rgb(252, 252, 252);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* sidebar */
+
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+  padding-top: 3px;
+}
+
+.sidebar h3 {
+  text-align: left;
+  margin-top: 33px;
+  font-weight: bold;
+  color: dodgerblue;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sidebar img {
+  width: 90px;
+  height: 90px;
+  float: left;
+  padding: 10px;
+}
+
+.sidebar p {
+  font-size: 13.5px;
+  color: black;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer {
+  background-color: rgb(3, 3, 3);
+  color: floralwhite;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 30px;
+}
